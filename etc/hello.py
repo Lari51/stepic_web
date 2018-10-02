@@ -1,5 +1,5 @@
 # gunicorn configuration file
-
+# gunicorn -b 0.0.0.0:8080 --workers 5 hello:app $
 CONFIG = {
   'mode': 'wsgi',
   'working_dir': '/home/box/web',
